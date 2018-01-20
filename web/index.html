@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    </head>
+    <body>
+        <h1>What is your mood today?</h1>
+        <div class="form-group col-sm-3" id="genreFormGroup">
+            <form name="genreForm" method="GET" action="genreServlet">
+                <select name="genreSelect" class="form-control">
+                    <option value="Action">Action</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Mystery">Mystery</option>
+                </select>
+                <button type="submit" class="btn btn-success">
+                    Search
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

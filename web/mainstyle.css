@@ -1,0 +1,13 @@
+    body {
+        background-image: url("images/light_in_dark.jpg");
+        padding: 35px;
+    }
+    
+    h1 {
+        font-family: Verdana;
+        color: white;
+    }
+    
+    #genreFormGroup, button {
+        margin-top: 30px;
+    }
