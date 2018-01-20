@@ -41,6 +41,9 @@ public class genreServlet extends HttpServlet {
             case "Mystery" :
                 movieArr = new String[] {"bo3me3one.jpg", "cube.jpg", "scream_2.jpg", "the_calling.jpg", "the_room.jpg"};
                 break;
+            case "Animated" :
+                movieArr = new String[] {"little_mermaid.jpg", "paprika.jpg", "spirited_away.jpg", "tangled.jpg", "gits.jpg"};
+                break;
         }
         try (PrintWriter out = response.getWriter()) {
             out.println("<!DOCTYPE html>");
